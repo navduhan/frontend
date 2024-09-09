@@ -1,0 +1,29 @@
+@use "sass:list";
+@import '../colors';
+@import '../globals';
+
+.form-control:focus {
+  outline: none!important;
+  box-shadow: none!important;
+}
+
+.kbl-form {
+  background: #ececec;
+  border-radius: $border-radius;
+  transition: 0.3s;
+  border: solid 1px #dedede!important;
+  box-shadow: 0 .0625rem .125rem rgba(0, 0, 0, 0.15)!important;
+
+  &::placeholder {
+    color: #a1a1a1;
+  }
+
+  &:hover {
+    background: #f5f5f5;
+  }
+
+  &:focus {
+    background: $white!important;
+    box-shadow: 0 .0625rem .125rem rgba(0, 0, 0, 0.15)!important;
+  }
+}

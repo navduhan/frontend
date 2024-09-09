@@ -1,0 +1,31 @@
+// Help.scss
+
+.container {
+    position: relative;
+ 
+}
+
+.sidebar {
+    // position: fix;
+    top: 0;
+    left: 0;
+    width: 220px; // Adjust based on your sidebar width
+    height: 100vh; // Full viewport height
+    overflow-y: auto; // Scroll if content overflows
+    padding: 15px;
+    background-color: #f8f9fa; // Optional: for visual distinction
+    border-right: 1px solid #ddd; // Optional: for visual distinction
+}
+
+.content {
+    padding: 15px;
+    overflow-y: auto; // Allow scrolling if content overflows
+    height: 100vh; // Full viewport height
+}
+
+.img-class{
+    max-width: '100%'; 
+    max-height: '600px';
+    height: 'auto';
+    width: 'auto' 
+}

@@ -1,0 +1,25 @@
+/* Results.scss */
+@import "../../scss/colors";
+@import "../../scss/globals";
+
+.active-phase {
+    background-color: $palette-1; /* Change this to your desired color */
+    color: white; /* Text color for the active button */
+    border: none; /* Remove border if needed */
+}
+
+.inactive-phase {
+    background-color: #e9ecef; /* Color for inactive buttons */
+    color: black; /* Text color for inactive buttons */
+}
+
+.btn-sm {
+    --bs-btn-padding-y: 0.rem;
+    --bs-btn-padding-x: 0.5rem;
+    --bs-btn-font-size: 0.875rem;
+    --bs-btn-border-radius: var(--bs-border-radius-sm);
+}
+
+.pred-btn {
+    border-radius: 10px;
+}

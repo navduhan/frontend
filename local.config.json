@@ -1,0 +1,10 @@
+{
+    "apps" : [
+      {
+        "name"      : "minpred",
+        "script"    : "npx",
+        "interpreter": "none",
+        "args": "serve -s build -l 3342"
+      }
+    ]
+  }

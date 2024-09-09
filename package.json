@@ -1,0 +1,60 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "3dmol": "^2.3.0",
+    "antd": "^4.20.1",
+    "axios": "^1.7.5",
+    "blueimp-canvas-to-blob": "^3.29.0",
+    "bootstrap": "^5.3.3",
+    "colorbrewer": "^1.5.6",
+    "d3": "^7.9.0",
+    "d3-svg-legend": "^2.25.6",
+    "dat.gui": "^0.7.9",
+    "file-saver": "^2.0.5",
+    "ngl": "^2.3.1",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.4",
+    "react-dom": "^18.3.1",
+    "react-dotenv": "^0.1.3",
+    "react-router-dom": "^6.26.1",
+    "react-scripts": "5.0.1",
+    "sass": "^1.77.8",
+    "serve": "^14.2.3",
+    "web-vitals": "^2.1.4",
+    "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "start": "react-dotenv && react-scripts start",
+    "local": "serve -s build -l 3342",
+    "build": "react-dotenv && react-scripts build",
+    "update": "npm i && react-dotenv && react-scripts build && pm2 restart minpred",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  }
+}
